@@ -1,0 +1,45 @@
+.background-selector {
+  font-family: Arial, sans-serif;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.background-selector h3 span{
+  color: #ff3333;
+  font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-weight: 500;
+  font-family: "MS Gothic", sans-serif  ;
+}
+
+.background-options {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+
+}
+
+.background-option {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  cursor: pointer;
+  /*border: 2px solid rgba(255, 255, 255, 0.5);*/
+  transition: all 0.3s ease;
+  border-color: black;
+}
+
+.background-option:hover {
+  transform: scale(1.1);
+  border-color: #ffffff;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.background-option:active {
+  transform: scale(0.95);
+}
