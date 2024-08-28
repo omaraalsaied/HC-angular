@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import {BackgroundSelectorComponent} from "./background-selector/background-selector.component";
-import {NoteComponent} from "./note/note.component";
+import { NavbarComponent } from './navbar/navbar.component';
+import { NoteCardComponent } from './note-card/note-card.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, BackgroundSelectorComponent, NoteComponent],
+  imports: [RouterOutlet, NavbarComponent, NoteCardComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
